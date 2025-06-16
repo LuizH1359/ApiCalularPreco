@@ -1,17 +1,6 @@
-# Ignorar ambiente virtual
 venv/
-
-# Ignorar arquivos pycache
 __pycache__/
 *.pyc
-
-# Ignorar arquivos temporários
 *.log
 *.sqlite
 *.ipynb_checkpoints/
-
-# Ignorar modelos grandes (vai usar Git LFS para esses)
-*.joblib
-
-# Ignorar arquivos de dados grandes
-data.csv
